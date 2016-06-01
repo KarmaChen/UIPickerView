@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6ABE58B1CFD86ED00C44803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ABE58A1CFD86ED00C44803 /* main.m */; };
+		E6ABE58E1CFD86ED00C44803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ABE58D1CFD86ED00C44803 /* AppDelegate.m */; };
+		E6ABE5911CFD86ED00C44803 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ABE5901CFD86ED00C44803 /* ViewController.m */; };
+		E6ABE5941CFD86ED00C44803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6ABE5921CFD86ED00C44803 /* Main.storyboard */; };
+		E6ABE5961CFD86ED00C44803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6ABE5951CFD86ED00C44803 /* Assets.xcassets */; };
+		E6ABE5991CFD86ED00C44803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6ABE5971CFD86ED00C44803 /* LaunchScreen.storyboard */; };
+		E6ABE5A41CFD86ED00C44803 /* doubleUIPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ABE5A31CFD86ED00C44803 /* doubleUIPickerViewTests.m */; };
+		E6ABE5AF1CFD86ED00C44803 /* doubleUIPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ABE5AE1CFD86ED00C44803 /* doubleUIPickerViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6ABE5A01CFD86ED00C44803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6ABE57E1CFD86ED00C44803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6ABE5851CFD86ED00C44803;
+			remoteInfo = doubleUIPickerView;
+		};
+		E6ABE5AB1CFD86ED00C44803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6ABE57E1CFD86ED00C44803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6ABE5851CFD86ED00C44803;
+			remoteInfo = doubleUIPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6ABE5861CFD86ED00C44803 /* doubleUIPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doubleUIPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6ABE58A1CFD86ED00C44803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6ABE58C1CFD86ED00C44803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6ABE58D1CFD86ED00C44803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6ABE58F1CFD86ED00C44803 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6ABE5901CFD86ED00C44803 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6ABE5931CFD86ED00C44803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6ABE5951CFD86ED00C44803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6ABE5981CFD86ED00C44803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6ABE59A1CFD86ED00C44803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6ABE59F1CFD86ED00C44803 /* doubleUIPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doubleUIPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6ABE5A31CFD86ED00C44803 /* doubleUIPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = doubleUIPickerViewTests.m; sourceTree = "<group>"; };
+		E6ABE5A51CFD86ED00C44803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6ABE5AA1CFD86ED00C44803 /* doubleUIPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doubleUIPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6ABE5AE1CFD86ED00C44803 /* doubleUIPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = doubleUIPickerViewUITests.m; sourceTree = "<group>"; };
+		E6ABE5B01CFD86ED00C44803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6ABE5831CFD86ED00C44803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6ABE59C1CFD86ED00C44803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6ABE5A71CFD86ED00C44803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6ABE57D1CFD86ED00C44803 = {
+			isa = PBXGroup;
+			children = (
+				E6ABE5881CFD86ED00C44803 /* doubleUIPickerView */,
+				E6ABE5A21CFD86ED00C44803 /* doubleUIPickerViewTests */,
+				E6ABE5AD1CFD86ED00C44803 /* doubleUIPickerViewUITests */,
+				E6ABE5871CFD86ED00C44803 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6ABE5871CFD86ED00C44803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6ABE5861CFD86ED00C44803 /* doubleUIPickerView.app */,
+				E6ABE59F1CFD86ED00C44803 /* doubleUIPickerViewTests.xctest */,
+				E6ABE5AA1CFD86ED00C44803 /* doubleUIPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6ABE5881CFD86ED00C44803 /* doubleUIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E6ABE58C1CFD86ED00C44803 /* AppDelegate.h */,
+				E6ABE58D1CFD86ED00C44803 /* AppDelegate.m */,
+				E6ABE58F1CFD86ED00C44803 /* ViewController.h */,
+				E6ABE5901CFD86ED00C44803 /* ViewController.m */,
+				E6ABE5921CFD86ED00C44803 /* Main.storyboard */,
+				E6ABE5951CFD86ED00C44803 /* Assets.xcassets */,
+				E6ABE5971CFD86ED00C44803 /* LaunchScreen.storyboard */,
+				E6ABE59A1CFD86ED00C44803 /* Info.plist */,
+				E6ABE5891CFD86ED00C44803 /* Supporting Files */,
+			);
+			path = doubleUIPickerView;
+			sourceTree = "<group>";
+		};
+		E6ABE5891CFD86ED00C44803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6ABE58A1CFD86ED00C44803 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6ABE5A21CFD86ED00C44803 /* doubleUIPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6ABE5A31CFD86ED00C44803 /* doubleUIPickerViewTests.m */,
+				E6ABE5A51CFD86ED00C44803 /* Info.plist */,
+			);
+			path = doubleUIPickerViewTests;
+			sourceTree = "<group>";
+		};
+		E6ABE5AD1CFD86ED00C44803 /* doubleUIPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6ABE5AE1CFD86ED00C44803 /* doubleUIPickerViewUITests.m */,
+				E6ABE5B01CFD86ED00C44803 /* Info.plist */,
+			);
+			path = doubleUIPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6ABE5851CFD86ED00C44803 /* doubleUIPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6ABE5B31CFD86ED00C44803 /* Build configuration list for PBXNativeTarget "doubleUIPickerView" */;
+			buildPhases = (
+				E6ABE5821CFD86ED00C44803 /* Sources */,
+				E6ABE5831CFD86ED00C44803 /* Frameworks */,
+				E6ABE5841CFD86ED00C44803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doubleUIPickerView;
+			productName = doubleUIPickerView;
+			productReference = E6ABE5861CFD86ED00C44803 /* doubleUIPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6ABE59E1CFD86ED00C44803 /* doubleUIPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6ABE5B61CFD86ED00C44803 /* Build configuration list for PBXNativeTarget "doubleUIPickerViewTests" */;
+			buildPhases = (
+				E6ABE59B1CFD86ED00C44803 /* Sources */,
+				E6ABE59C1CFD86ED00C44803 /* Frameworks */,
+				E6ABE59D1CFD86ED00C44803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6ABE5A11CFD86ED00C44803 /* PBXTargetDependency */,
+			);
+			name = doubleUIPickerViewTests;
+			productName = doubleUIPickerViewTests;
+			productReference = E6ABE59F1CFD86ED00C44803 /* doubleUIPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6ABE5A91CFD86ED00C44803 /* doubleUIPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6ABE5B91CFD86ED00C44803 /* Build configuration list for PBXNativeTarget "doubleUIPickerViewUITests" */;
+			buildPhases = (
+				E6ABE5A61CFD86ED00C44803 /* Sources */,
+				E6ABE5A71CFD86ED00C44803 /* Frameworks */,
+				E6ABE5A81CFD86ED00C44803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6ABE5AC1CFD86ED00C44803 /* PBXTargetDependency */,
+			);
+			name = doubleUIPickerViewUITests;
+			productName = doubleUIPickerViewUITests;
+			productReference = E6ABE5AA1CFD86ED00C44803 /* doubleUIPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6ABE57E1CFD86ED00C44803 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "陈昆涛";
+				TargetAttributes = {
+					E6ABE5851CFD86ED00C44803 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E6ABE59E1CFD86ED00C44803 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E6ABE5851CFD86ED00C44803;
+					};
+					E6ABE5A91CFD86ED00C44803 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E6ABE5851CFD86ED00C44803;
+					};
+				};
+			};
+			buildConfigurationList = E6ABE5811CFD86ED00C44803 /* Build configuration list for PBXProject "doubleUIPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6ABE57D1CFD86ED00C44803;
+			productRefGroup = E6ABE5871CFD86ED00C44803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6ABE5851CFD86ED00C44803 /* doubleUIPickerView */,
+				E6ABE59E1CFD86ED00C44803 /* doubleUIPickerViewTests */,
+				E6ABE5A91CFD86ED00C44803 /* doubleUIPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6ABE5841CFD86ED00C44803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6ABE5991CFD86ED00C44803 /* LaunchScreen.storyboard in Resources */,
+				E6ABE5961CFD86ED00C44803 /* Assets.xcassets in Resources */,
+				E6ABE5941CFD86ED00C44803 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6ABE59D1CFD86ED00C44803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6ABE5A81CFD86ED00C44803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6ABE5821CFD86ED00C44803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6ABE5911CFD86ED00C44803 /* ViewController.m in Sources */,
+				E6ABE58E1CFD86ED00C44803 /* AppDelegate.m in Sources */,
+				E6ABE58B1CFD86ED00C44803 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6ABE59B1CFD86ED00C44803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6ABE5A41CFD86ED00C44803 /* doubleUIPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6ABE5A61CFD86ED00C44803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6ABE5AF1CFD86ED00C44803 /* doubleUIPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6ABE5A11CFD86ED00C44803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6ABE5851CFD86ED00C44803 /* doubleUIPickerView */;
+			targetProxy = E6ABE5A01CFD86ED00C44803 /* PBXContainerItemProxy */;
+		};
+		E6ABE5AC1CFD86ED00C44803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6ABE5851CFD86ED00C44803 /* doubleUIPickerView */;
+			targetProxy = E6ABE5AB1CFD86ED00C44803 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6ABE5921CFD86ED00C44803 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6ABE5931CFD86ED00C44803 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6ABE5971CFD86ED00C44803 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6ABE5981CFD86ED00C44803 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6ABE5B11CFD86ED00C44803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6ABE5B21CFD86ED00C44803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6ABE5B41CFD86ED00C44803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = doubleUIPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.doubleUIPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6ABE5B51CFD86ED00C44803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = doubleUIPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.doubleUIPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6ABE5B71CFD86ED00C44803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = doubleUIPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.doubleUIPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doubleUIPickerView.app/doubleUIPickerView";
+			};
+			name = Debug;
+		};
+		E6ABE5B81CFD86ED00C44803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = doubleUIPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.doubleUIPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doubleUIPickerView.app/doubleUIPickerView";
+			};
+			name = Release;
+		};
+		E6ABE5BA1CFD86ED00C44803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = doubleUIPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.doubleUIPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = doubleUIPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E6ABE5BB1CFD86ED00C44803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = doubleUIPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Karma.doubleUIPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = doubleUIPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6ABE5811CFD86ED00C44803 /* Build configuration list for PBXProject "doubleUIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6ABE5B11CFD86ED00C44803 /* Debug */,
+				E6ABE5B21CFD86ED00C44803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6ABE5B31CFD86ED00C44803 /* Build configuration list for PBXNativeTarget "doubleUIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6ABE5B41CFD86ED00C44803 /* Debug */,
+				E6ABE5B51CFD86ED00C44803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6ABE5B61CFD86ED00C44803 /* Build configuration list for PBXNativeTarget "doubleUIPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6ABE5B71CFD86ED00C44803 /* Debug */,
+				E6ABE5B81CFD86ED00C44803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6ABE5B91CFD86ED00C44803 /* Build configuration list for PBXNativeTarget "doubleUIPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6ABE5BA1CFD86ED00C44803 /* Debug */,
+				E6ABE5BB1CFD86ED00C44803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6ABE57E1CFD86ED00C44803 /* Project object */;
+}
